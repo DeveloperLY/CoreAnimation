@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE7C5091BFA1D2A00341170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE7C5081BFA1D2A00341170 /* main.m */; };
+		CDE7C50C1BFA1D2A00341170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE7C50B1BFA1D2A00341170 /* AppDelegate.m */; };
+		CDE7C50F1BFA1D2A00341170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE7C50E1BFA1D2A00341170 /* ViewController.m */; };
+		CDE7C5121BFA1D2A00341170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE7C5101BFA1D2A00341170 /* Main.storyboard */; };
+		CDE7C5141BFA1D2A00341170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE7C5131BFA1D2A00341170 /* Assets.xcassets */; };
+		CDE7C5171BFA1D2A00341170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE7C5151BFA1D2A00341170 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE7C5041BFA1D2A00341170 /* day02-03-音量震动条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day02-03-音量震动条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE7C5081BFA1D2A00341170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDE7C50A1BFA1D2A00341170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDE7C50B1BFA1D2A00341170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDE7C50D1BFA1D2A00341170 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDE7C50E1BFA1D2A00341170 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDE7C5111BFA1D2A00341170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE7C5131BFA1D2A00341170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE7C5161BFA1D2A00341170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE7C5181BFA1D2A00341170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE7C5011BFA1D2A00341170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE7C4FB1BFA1D2A00341170 = {
+			isa = PBXGroup;
+			children = (
+				CDE7C5061BFA1D2A00341170 /* day02-03-音量震动条 */,
+				CDE7C5051BFA1D2A00341170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE7C5051BFA1D2A00341170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE7C5041BFA1D2A00341170 /* day02-03-音量震动条.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE7C5061BFA1D2A00341170 /* day02-03-音量震动条 */ = {
+			isa = PBXGroup;
+			children = (
+				CDE7C50A1BFA1D2A00341170 /* AppDelegate.h */,
+				CDE7C50B1BFA1D2A00341170 /* AppDelegate.m */,
+				CDE7C50D1BFA1D2A00341170 /* ViewController.h */,
+				CDE7C50E1BFA1D2A00341170 /* ViewController.m */,
+				CDE7C5101BFA1D2A00341170 /* Main.storyboard */,
+				CDE7C5131BFA1D2A00341170 /* Assets.xcassets */,
+				CDE7C5151BFA1D2A00341170 /* LaunchScreen.storyboard */,
+				CDE7C5181BFA1D2A00341170 /* Info.plist */,
+				CDE7C5071BFA1D2A00341170 /* Supporting Files */,
+			);
+			path = "day02-03-音量震动条";
+			sourceTree = "<group>";
+		};
+		CDE7C5071BFA1D2A00341170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE7C5081BFA1D2A00341170 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE7C5031BFA1D2A00341170 /* day02-03-音量震动条 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE7C51B1BFA1D2A00341170 /* Build configuration list for PBXNativeTarget "day02-03-音量震动条" */;
+			buildPhases = (
+				CDE7C5001BFA1D2A00341170 /* Sources */,
+				CDE7C5011BFA1D2A00341170 /* Frameworks */,
+				CDE7C5021BFA1D2A00341170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day02-03-音量震动条";
+			productName = "day02-03-音量震动条";
+			productReference = CDE7C5041BFA1D2A00341170 /* day02-03-音量震动条.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE7C4FC1BFA1D2A00341170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DeveloperLY;
+				TargetAttributes = {
+					CDE7C5031BFA1D2A00341170 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8US88264BA;
+					};
+				};
+			};
+			buildConfigurationList = CDE7C4FF1BFA1D2A00341170 /* Build configuration list for PBXProject "day02-03-音量震动条" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE7C4FB1BFA1D2A00341170;
+			productRefGroup = CDE7C5051BFA1D2A00341170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE7C5031BFA1D2A00341170 /* day02-03-音量震动条 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE7C5021BFA1D2A00341170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE7C5171BFA1D2A00341170 /* LaunchScreen.storyboard in Resources */,
+				CDE7C5141BFA1D2A00341170 /* Assets.xcassets in Resources */,
+				CDE7C5121BFA1D2A00341170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE7C5001BFA1D2A00341170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE7C50F1BFA1D2A00341170 /* ViewController.m in Sources */,
+				CDE7C50C1BFA1D2A00341170 /* AppDelegate.m in Sources */,
+				CDE7C5091BFA1D2A00341170 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE7C5101BFA1D2A00341170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE7C5111BFA1D2A00341170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE7C5151BFA1D2A00341170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE7C5161BFA1D2A00341170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE7C5191BFA1D2A00341170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDE7C51A1BFA1D2A00341170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE7C51C1BFA1D2A00341170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "day02-03-音量震动条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.demo3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE7C51D1BFA1D2A00341170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "day02-03-音量震动条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.demo3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE7C4FF1BFA1D2A00341170 /* Build configuration list for PBXProject "day02-03-音量震动条" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE7C5191BFA1D2A00341170 /* Debug */,
+				CDE7C51A1BFA1D2A00341170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE7C51B1BFA1D2A00341170 /* Build configuration list for PBXNativeTarget "day02-03-音量震动条" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE7C51C1BFA1D2A00341170 /* Debug */,
+				CDE7C51D1BFA1D2A00341170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE7C4FC1BFA1D2A00341170 /* Project object */;
+}
